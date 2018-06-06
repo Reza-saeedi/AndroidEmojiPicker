@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<org.messenger.emojiPicker.components.InputAwareLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<org.messenger.emojiPicker.components.camera.QuickAttachmentDrawer
+        android:id="@+id/quick_attachment_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/conversation_container"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:paddingTop="?attr/actionBarSize"
+                  android:gravity="bottom"
+                  android:clipToPadding="false"
+                  android:clipChildren="false">
+
+
+        <include layout="@layout/conversation_input_panel"/>
+
+
+        <ViewStub
+                android:id="@+id/emoji_drawer_stub"
+                android:layout="@layout/conversation_activity_emojidrawer_stub"
+                android:inflatedId="@+id/emoji_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</org.messenger.emojiPicker.components.camera.QuickAttachmentDrawer>
+</org.messenger.emojiPicker.components.InputAwareLayout>

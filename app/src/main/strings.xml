@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EmojiProject</string>
+
+    <string name="conversation_activity__compose_description">Message composition</string>
+    <string name="conversation_activity__emoji_toggle_description">Toggle emoji keyboard</string>
+    <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle quick camera attachment drawer</string>
+    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Record and send audio attachment</string>
+    <string name="conversation_input_panel__slide_to_cancel">SLIDE TO CANCEL</string>
+    <string name="ConversationActivity_quick_camera_unavailable">Camera unavailable</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">To send audio messages, allow aka access to your microphone.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">aka requires the Microphone permission in order to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">aka needs Camera permissions to take photos or video</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">aka needs the Camera permission to take photos or video, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">To capture photos and video, allow aka access to the camera.</string>
+    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tap and hold to record a voice message, release to send</string>
+
+</resources>
