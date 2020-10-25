@@ -4,9 +4,9 @@ Android Emoji Picker is a part of Signal messenger
 
 :heart_eyes: :stuck_out_tongue_winking_eye: :joy: :stuck_out_tongue: Instantly add Emoji support to input fields on your Android Application! :boom: :sparkles: :thumbsup: :metal:
 
-![Example Screenshot2](https://github.com/Reza-saeedi/AndroidEmojiPicker/Screenshot_2.jpg)
+![Example Screenshot2](https://raw.githubusercontent.com/Reza-saeedi/AndroidEmojiPicker/master/Screenshot_2.jpg)
 
-![Example Screenshot1](https://github.com/Reza-saeedi/AndroidEmojiPicker/Screenshot_1.jpg)
+![Example Screenshot1](https://raw.githubusercontent.com/Reza-saeedi/AndroidEmojiPicker/master/Screenshot_1.jpg)
 
 
 
