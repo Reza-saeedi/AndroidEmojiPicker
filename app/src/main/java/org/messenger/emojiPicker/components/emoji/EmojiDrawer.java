@@ -20,7 +20,6 @@ import com.astuetz.PagerSlidingTabStrip;
 import org.messenger.emojiPicker.R;
 import org.messenger.emojiPicker.components.InputAwareLayout;
 import org.messenger.emojiPicker.components.RepeatableImageKey;
-import org.messenger.emojiPicker.mms.GlideApp;
 import org.messenger.emojiPicker.util.ResUtil;
 
 import java.util.LinkedList;
@@ -203,10 +202,10 @@ public class EmojiDrawer extends LinearLayout implements InputAwareLayout.InputV
         public View getCustomTabView(ViewGroup viewGroup, int i) {
             ImageView image = new ImageView(context);
             image.setScaleType(ScaleType.CENTER_INSIDE);
-            if(pages.get(i).getType()== StaticEmojiPageModel.EmojiType.Url)
+            /*if(pages.get(i).getType()== StaticEmojiPageModel.EmojiType.Url)
             {
                 GlideApp.with(context.getApplicationContext()).load(pages.get(i).getSprite()).into(image);
-            }else
+            }else*/
             image.setImageResource(ResUtil.getDrawableRes(context, pages.get(i).getIconAttr()));
             return image;
         }

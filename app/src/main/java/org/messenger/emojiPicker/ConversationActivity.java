@@ -231,8 +231,6 @@ public class ConversationActivity extends AppCompatActivity
     SendButtonListener        sendButtonListener        = new SendButtonListener();
     ComposeKeyPressedListener composeKeyPressedListener = new ComposeKeyPressedListener();
 
-    composeText.setOnEditorActionListener(sendButtonListener);
-
 
     composeText.setOnKeyListener(composeKeyPressedListener);
     composeText.addTextChangedListener(composeKeyPressedListener);
@@ -255,10 +253,8 @@ public class ConversationActivity extends AppCompatActivity
           inputPanel.setEmojiDrawer(emojiDrawerStub.get());
           emojiDrawerStub.get().setEmojiEventListener(inputPanel);
         }
-
-        inputPanel.setVisibility(View.GONE);
-        emojiDrawerStub.get().setDataType(true,false);
-        emojiDrawerStub.get().show(container.getKeyboardHeight(),false);
+        emojiDrawerStub.get().setDataType(false,true);
+        //emojiDrawerStub.get().show(container.getKeyboardHeight(),false);
       }
     });
 
