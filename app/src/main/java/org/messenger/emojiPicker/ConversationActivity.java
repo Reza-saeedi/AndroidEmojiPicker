@@ -267,7 +267,7 @@ public class ConversationActivity extends AppCompatActivity
     supportActionBar.setDisplayHomeAsUpEnabled(false);
 
     supportActionBar.setDisplayShowCustomEnabled(true);
-    supportActionBar.setDisplayShowTitleEnabled(false);
+    supportActionBar.setDisplayShowTitleEnabled(true);
   }
 
   private void initializeResources() {
